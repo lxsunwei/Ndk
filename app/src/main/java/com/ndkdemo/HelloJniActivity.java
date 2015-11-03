@@ -2,6 +2,7 @@ package com.ndkdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 
 /**
@@ -12,11 +13,15 @@ import android.widget.TextView;
 public class HelloJniActivity extends AppCompatActivity {
 
     private TextView mTvHelloJni;
+    private Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_jni);
+
+        mToolbar = (Toolbar) findViewById(R.id.toolbar_helloJni);
+        setSupportActionBar(mToolbar);
 
         mTvHelloJni = (TextView) findViewById(R.id.tv_hellJni);
         mTvHelloJni.setText(stringFromJNI());
