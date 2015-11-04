@@ -1,1 +1,1 @@
-# NdkDemo Ndk 简单示例
+# Ndk 简单示例
