@@ -1,4 +1,4 @@
-package com.ndkdemo;
+package com.ndk;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

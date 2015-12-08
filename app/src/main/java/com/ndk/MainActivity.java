@@ -1,4 +1,4 @@
-package com.ndkdemo;
+package com.ndk;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
-
+/**
+ * Created by sunwei on 2015/10/29.
+ * Email: lx_sunwei@163.com.
+ * Description:
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button mBtnHelloJni;
@@ -27,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int id = v.getId();
         switch (id) {
             case R.id.btn_helloJni:
-                Intent helloJni = new Intent(MainActivity.this, com.ndkdemo.HelloJniActivity.class);
+                Intent helloJni = new Intent(MainActivity.this, com.ndk.HelloJniActivity.class);
                 startActivity(helloJni);
                 break;
         }

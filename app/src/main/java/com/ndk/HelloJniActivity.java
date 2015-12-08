@@ -1,4 +1,4 @@
-package com.ndkdemo;
+package com.ndk;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

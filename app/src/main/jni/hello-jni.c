@@ -24,7 +24,7 @@
  *   apps/samples/hello-jni/project/src/com/example/hellojni/HelloJni.java
  */
 jstring
-Java_com_ndkdemo_HelloJniActivity_stringFromJNI(JNIEnv *env,
+Java_com_ndk_HelloJniActivity_stringFromJNI(JNIEnv *env,
                                             jobject thiz) {
 #if defined(__arm__)
 #if defined(__ARM_ARCH_7A__)
